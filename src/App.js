@@ -1,20 +1,17 @@
-import { LogoImage } from './assets/svgs'
-import './App.scss'
+import DefaultGlobalStyle from './Styles/DefaultGlobalStyle';
+
+import 'modern-normalize';
+import 'react-loading-skeleton/dist/skeleton.css';
+
+import UploadImages from 'UploadImages';
 
 function App() {
   return (
-    <div className='app'>
-      <header className='appHeader'>
-        <LogoImage className='appLogo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a className='appLink' href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
-          Learn React
-        </a>
-      </header>
-    </div>
-  )
+    <>
+      <DefaultGlobalStyle />
+      <UploadImages />
+    </>
+  );
 }
 
-export default App
+export default App;

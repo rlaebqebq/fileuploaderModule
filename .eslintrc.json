@@ -19,7 +19,7 @@
   },
   "rules": {
     "arrow-body-style": "off",
-    "semi": ["warn", "never"],
+    // "semi": ["warn", "never"],
     "react/jsx-one-expression-per-line": "off",
     "react/jsx-filename-extension": [
       "error",

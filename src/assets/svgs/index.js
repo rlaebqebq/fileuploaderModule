@@ -1,8 +1,0 @@
-export { ReactComponent as LogoImage } from './logo.svg'
-export { ReactComponent as CheckIcon } from './check.svg'
-export { ReactComponent as PlusIcon } from './plus.svg'
-export { ReactComponent as EditIcon } from './edit.svg'
-export { ReactComponent as MenuIcon } from './menu.svg'
-export { ReactComponent as SearchIcon } from './search.svg'
-export { ReactComponent as PinIcon } from './pin.svg'
-export { ReactComponent as PinFixedIcon } from './pinFixed.svg'
