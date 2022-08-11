@@ -13,6 +13,7 @@
     "react-calendar": "^3.7.0",
     "react-dom": "^18.1.0",
     "react-dropzone": "^14.2.2",
+    "react-dropzone-component": "^3.2.0",
     "react-dropzone-uploader": "^2.11.0",
     "react-hook-form": "^7.34.0",
     "react-indiana-drag-scroll": "^2.1.0",
